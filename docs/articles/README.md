@@ -18,9 +18,9 @@
 | 10 | 随机森林——三个臭皮匠的数学证明 | `ensemble/random_forest.py` | ✅ 已完成 [文章](10-random-forest.md) |
 | 11 | GBDT——每棵树都在纠正前一棵的错 | `ensemble/gbdt.py` | ✅ 已完成 [文章](11-gbdt.md) |
 | 12 | 模型评估——准确率高就是好模型吗？ | `ensemble/evaluation.py` | ✅ 已完成 [文章](12-model-evaluation.md) |
-| 13 | K-Means——机器怎么自己"分堆" | `unsupervised/kmeans.py` | 待开发 |
-| 14 | PCA——把高维数据"压扁"还不丢信息 | `unsupervised/pca.py` | 待开发 |
-| 15 | 异常检测——怎么找出数据里的"怪东西" | `unsupervised/anomaly_detection.py` | 待开发 |
+| 13 | K-Means——机器怎么自己"分堆" | `unsupervised/kmeans.py` | ✅ 已完成 [文章](13-kmeans.md) |
+| 14 | PCA——把高维数据"压扁"还不丢信息 | `unsupervised/pca.py` | ✅ 已完成 [文章](14-pca.md) |
+| 15 | 异常检测——怎么找出数据里的"怪东西" | `unsupervised/anomaly_detection.py` | ✅ 已完成 [文章](15-anomaly-detection.md) |
 | 16 | 感知机——神经网络的最小细胞 | `neural_net/perceptron.py` | 待开发 |
 | 17 | 反向传播——神经网络"学"的核心魔法 | `neural_net/backprop.py` | 待开发 |
 | 18 | 手写 MLP，识别真实的手写数字 | `neural_net/mlp_mnist.py` | 待开发 |
