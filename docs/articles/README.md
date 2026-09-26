@@ -6,9 +6,9 @@
 
 | # | 标题 | 对应代码模块 | 状态 |
 |---|------|-------------|------|
-| 01 | 机器"学习"到底在学什么？ | `foundations/linear_fit.py` | 代码就绪，待写文章 |
-| 02 | 梯度下降——所有模型"学"的那只手 | `foundations/gradient_descent.py` | 代码就绪，待写文章 |
-| 03 | 过拟合——模型"背答案"了怎么办 | `foundations/overfitting.py` | 代码就绪，待写文章 |
+| 01 | 机器"学习"到底在学什么？ | `foundations/linear_fit.py` | ✅ 已完成 [文章](01-what-is-learning.md) |
+| 02 | 梯度下降——所有模型"学"的那只手 | `foundations/gradient_descent.py` | ✅ 已完成 [文章](02-gradient-descent.md) |
+| 03 | 过拟合——模型"背答案"了怎么办 | `foundations/overfitting.py` | ✅ 已完成 [文章](03-overfitting.md) |
 | 04 | 线性回归——从一条直线开始 | `supervised/linear_regression.py` | 待开发 |
 | 05 | 逻辑回归——为什么"回归"能做分类 | `supervised/logistic_regression.py` | 待开发 |
 | 06 | KNN——最"懒"的算法 | `supervised/knn.py` | 待开发 |
