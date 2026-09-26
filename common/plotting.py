@@ -31,3 +31,21 @@ def save_fig(fig, out_dir: str, filename: str) -> str:
     fig.savefig(path, dpi=150, bbox_inches="tight")
     plt.close(fig)
     return path
+
+
+def plot_decision_boundary(ax, predict_fn, X, y, title=""):
+    """在 ax 上画二维决策边界 + 散点。
+
+    predict_fn 接收形状 (m, 2) 的点阵，返回 (m,) 的类别标签。
+    """
+    import numpy as np
+    x_min, x_max = X[:, 0].min() - 0.5, X[:, 0].max() + 0.5
+    y_min, y_max = X[:, 1].min() - 0.5, X[:, 1].max() + 0.5
+    xx, yy = np.meshgrid(np.linspace(x_min, x_max, 200),
+                         np.linspace(y_min, y_max, 200))
+    grid = np.c_[xx.ravel(), yy.ravel()]
+    Z = np.asarray(predict_fn(grid)).reshape(xx.shape)
+    ax.contourf(xx, yy, Z, alpha=0.25, cmap="coolwarm")
+    ax.scatter(X[:, 0], X[:, 1], c=y, cmap="coolwarm", edgecolors="k", s=25)
+    if title:
+        ax.set_title(title)
