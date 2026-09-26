@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.DS_Store
+# 生成的配图数据与图片（可由 export_charts.py 重新生成）
+**/charts_out/
