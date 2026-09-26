@@ -21,7 +21,7 @@
 | 13 | K-Means——机器怎么自己"分堆" | `unsupervised/kmeans.py` | ✅ 已完成 [文章](13-kmeans.md) |
 | 14 | PCA——把高维数据"压扁"还不丢信息 | `unsupervised/pca.py` | ✅ 已完成 [文章](14-pca.md) |
 | 15 | 异常检测——怎么找出数据里的"怪东西" | `unsupervised/anomaly_detection.py` | ✅ 已完成 [文章](15-anomaly-detection.md) |
-| 16 | 感知机——神经网络的最小细胞 | `neural_net/perceptron.py` | 待开发 |
-| 17 | 反向传播——神经网络"学"的核心魔法 | `neural_net/backprop.py` | 待开发 |
-| 18 | 手写 MLP，识别真实的手写数字 | `neural_net/mlp_mnist.py` | 待开发 |
-| 19 | 从这里去哪？经典 ML 与深度学习的分水岭 | 全系列回顾 | 待开发 |
+| 16 | 感知机——神经网络的最小细胞 | `neural_net/perceptron.py` | ✅ 已完成 [文章](16-perceptron.md) |
+| 17 | 反向传播——神经网络"学"的核心魔法 | `neural_net/backprop.py` | ✅ 已完成 [文章](17-backprop.md) |
+| 18 | 手写 MLP，识别真实的手写数字 | `neural_net/mlp_mnist.py` | ✅ 已完成 [文章](18-mlp-mnist.md) |
+| 19 | 从这里去哪？经典 ML 与深度学习的分水岭 | 全系列回顾 | ✅ 已完成 [文章](19-ml-vs-dl.md) |
