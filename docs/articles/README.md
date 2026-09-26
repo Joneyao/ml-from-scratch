@@ -9,12 +9,12 @@
 | 01 | 机器"学习"到底在学什么？ | `foundations/linear_fit.py` | ✅ 已完成 [文章](01-what-is-learning.md) |
 | 02 | 梯度下降——所有模型"学"的那只手 | `foundations/gradient_descent.py` | ✅ 已完成 [文章](02-gradient-descent.md) |
 | 03 | 过拟合——模型"背答案"了怎么办 | `foundations/overfitting.py` | ✅ 已完成 [文章](03-overfitting.md) |
-| 04 | 线性回归——从一条直线开始 | `supervised/linear_regression.py` | 待开发 |
-| 05 | 逻辑回归——为什么"回归"能做分类 | `supervised/logistic_regression.py` | 待开发 |
-| 06 | KNN——最"懒"的算法 | `supervised/knn.py` | 待开发 |
-| 07 | 朴素贝叶斯——用概率"猜"类别 | `supervised/naive_bayes.py` | 待开发 |
-| 08 | 决策树——机器怎么学会"if-else" | `supervised/decision_tree.py` | 待开发 |
-| 09 | SVM——找一条"最宽"的分界线 | `supervised/svm.py` | 待开发 |
+| 04 | 线性回归——从一条直线开始 | `supervised/linear_regression.py` | ✅ 已完成 [文章](04-linear-regression.md) |
+| 05 | 逻辑回归——为什么"回归"能做分类 | `supervised/logistic_regression.py` | ✅ 已完成 [文章](05-logistic-regression.md) |
+| 06 | KNN——最"懒"的算法 | `supervised/knn.py` | ✅ 已完成 [文章](06-knn.md) |
+| 07 | 朴素贝叶斯——用概率"猜"类别 | `supervised/naive_bayes.py` | ✅ 已完成 [文章](07-naive-bayes.md) |
+| 08 | 决策树——机器怎么学会"if-else" | `supervised/decision_tree.py` | ✅ 已完成 [文章](08-decision-tree.md) |
+| 09 | SVM——找一条"最宽"的分界线 | `supervised/svm.py` | ✅ 已完成 [文章](09-svm.md) |
 | 10 | 随机森林——三个臭皮匠的数学证明 | `ensemble/random_forest.py` | 待开发 |
 | 11 | GBDT——每棵树都在纠正前一棵的错 | `ensemble/gbdt.py` | 待开发 |
 | 12 | 模型评估——准确率高就是好模型吗？ | `ensemble/evaluation.py` | 待开发 |
